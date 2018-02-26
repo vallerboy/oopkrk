@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         Game game = new Game("MC", 3);
-        game.addPlayer(new Player("Oskar", "Polak", 999));
+        game.addPlayer(new Player("Oskar", "Polak", 99));
         game.addPlayer(new Player("Adam", "Polak", 299));
-        game.addPlayer(new Player("Michał", "Polak", 99));
+        game.addPlayer(new Player("Michał", "Polak", 999));
 
         String winner = game.winner();
         if(winner == null){
