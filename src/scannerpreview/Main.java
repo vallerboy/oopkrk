@@ -14,5 +14,7 @@ public class Main {
         Multiply multiply = new Multiply(scanner);
         multiply.multiply();
 
+
+
     }
 }
